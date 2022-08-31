@@ -1,0 +1,89 @@
+.main-block {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-block {
+    width: 30%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.config-block {
+    padding-top: 10%;
+    position: relative;
+}
+
+.select-block {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    background: transparent;
+    width: 2rem;
+    height: 2rem;
+    background: #eae6eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+span {
+    margin: 1rem;
+}
+
+.prev-btn {
+    color: hsl(205, 90%, 76%);
+    font-size: 1.25rem;
+    background: transparent;
+    border-color: transparent;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    float: left;
+}
+.next-btn {
+    color: hsl(205, 90%, 76%);
+    font-size: 1.25rem;
+    background: transparent;
+    border-color: transparent;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    float: right;
+}
+.prev-btn:hover,
+.next-btn:hover {
+    color: hsl(205, 78%, 60%);
+}
+
+.word-span {
+    font-weight: bold;
+}
+
+.bottom-buttons {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+}
+
+.g-block {
+    position: relative;
+}
+
+.end-block {
+    position: relative;
+}
+
+.inp {
+    border: 2px solid red;
+    border-radius: 4px;
+}
